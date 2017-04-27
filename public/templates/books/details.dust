@@ -1,0 +1,30 @@
+
+{>"layouts/master" /}
+
+{<body}
+
+    <div class="row">
+    <div class="large-4 columns">
+        <img src="/img/node1.jpg">
+    
+    </div>
+    <div class="large-8 columns">
+        <h2>Professional Node.js</h2>
+        <ul class="bookInfo">
+            <li>Category: Node.js</li>
+            <li>Author: John Doe</li>
+        </ul>
+        <br>
+        <divclass="price"><span>$19.99</span></div>
+        <br>
+        <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+            blanditiis praesentium voluptatum deleniti atque corrupti quos 
+            dolores et quas molestias excepturi sint occaecati cupiditate 
+            non provident, similique sunt in culpa qui officia deserunt mollitia animi, 
+            id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio
+            s est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, 
+            consequatur aut perferendis doloribus asperiores repellat</p>
+        <a class="button success">Add To Cart</a>
+    </div>
+    </div>
+{/body}
