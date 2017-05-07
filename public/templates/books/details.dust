@@ -5,25 +5,20 @@
 
     <div class="row">
     <div class="large-4 columns">
-        <img src="/img/node1.jpg">
+        <img src="/img/{book.cover}">
     
     </div>
     <div class="large-8 columns">
-        <h2>Professional Node.js</h2>
+        <h2>{book.title}</h2>
         <ul class="bookInfo">
-            <li>Category: Node.js</li>
-            <li>Author: John Doe</li>
+            <li>Category: {book.category}</li>
+            <li>Author: {book.author}</li>
+            <li>Publisher: {book.publisher}</li>
         </ul>
         <br>
-        <divclass="price"><span>$19.99</span></div>
+        <divclass="price"><span>${book.price}</span></div>
         <br>
-        <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui 
-            blanditiis praesentium voluptatum deleniti atque corrupti quos 
-            dolores et quas molestias excepturi sint occaecati cupiditate 
-            non provident, similique sunt in culpa qui officia deserunt mollitia animi, 
-            id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio
-            s est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, 
-            consequatur aut perferendis doloribus asperiores repellat</p>
+        <p>{book.description}</p>
         <a class="button success">Add To Cart</a>
     </div>
     </div>

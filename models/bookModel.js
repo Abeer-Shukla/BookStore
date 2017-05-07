@@ -15,9 +15,9 @@ var bookModel = function(){
 
    //Shorten text
 
-   bookSchema.methods.trunText = function(length){
+   bookSchema.methods.truncText = function(length){
        return this.description.substring(0,length);
-   }
+   };
 
 
    return mongoose.model('Book', bookSchema);

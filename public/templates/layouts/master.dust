@@ -9,7 +9,7 @@
 
         <script data-main="/js/app" src="/components/requirejs/require.js"></script>
         <script src="/js/vendor/jquery.js"></script>
-        <script src="/js/foundation.min.js"></script>
+        <script src="/js/foundation.js"></script>
         <script src="/js/main.js"></script>
     
     </head>
@@ -25,11 +25,10 @@
             <nav class="top-bar" data-topbar role="navigation">
                 <section class="top-bar-section">
                  
-                        <ul class="left">
-                            <li class="left"><a href="/">Home</a></li>
-                            <li class="left"></li>
-                            <li class="left"><a href="/pages/about">Above</a></li>
-                            <li class="left"><a href="/cart">Cart</a></li>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/pages/about">Above</a></li>
+                            <li><a href="/cart">Cart</a></li>
                         </ul>
                     
                 </section>
